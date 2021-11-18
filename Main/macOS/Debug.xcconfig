@@ -1,0 +1,8 @@
+//  Created by Bastiaan Marinus van de Weerd on 18-11-21.
+
+MY_CARGO_BIN = <overridden>
+MY_DYLIB_CARGO_TOML = <overridden>
+MY_DYLIB_DIR = $(BUILT_PRODUCTS_DIR)/dylib
+
+// Per developer overrides (please don’t commit)
+#include? "My-Debug.xcconfig"
